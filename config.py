@@ -2,11 +2,11 @@ import os
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5925907225:AAEoUGKGF4fkK9hzxi65wnNtK1Gap29uz_o")
     
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", "3199060"))
     
-    API_HASH = os.environ.get("API_HASH")
+    API_HASH = os.environ.get("API_HASH", "d67f6b73f3df9f90554442255c846f79")
     
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     
@@ -28,6 +28,6 @@ class Config(object):
 
     SESSION_NAME = "UploadLinkToFileBot"
     
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://qashidevil:Ayesha.Qasim1@cluster0.yh7psjw.mongodb.net/?retryWrites=true&w=majority")
 
     MAX_RESULTS = "50"
